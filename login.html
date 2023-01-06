@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gudgudi Login</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Maven+Pro&family=Rowdies&family=Source+Code+Pro:wght@300&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            background: url('bg_login.jpg');
+            background-size: 1300px;
+        }
+
+        /* .brandName{
+            padding: 5px;
+            font-size: 30px;
+        }
+
+        .brandName a{
+            text-decoration: none !important;
+            font-family: 'Rowdies', cursive !important;
+            color: aquamarine;
+        }
+
+        .brandName a:hover{
+            text-decoration: underline;
+            text-decoration-color: aquamarine;
+            text-decoration-thickness: 1px;
+        } */
+
+
+        .container_box {
+            /* border: 1px solid lightcoral; */
+            border-radius: 21px;
+            background-color: rgba(245, 245, 245, 0.75);
+            position: absolute;
+            top: 6%;
+            bottom: 6%;
+            left: 32%;
+            right: 32%;
+            height: 500px;
+        }
+
+        .container_box li {
+            display: inline-block;
+        }
+
+        .signup_box {
+            /* border: 1px solid violet; */
+            text-align: center;
+            padding: 15px;
+        }
+
+        label{
+            font-family: 'Maven Pro', sans-serif;
+            font-size: 20px;
+            line-height: 1.1em;
+        }
+
+        .signup_form div{
+            margin: 10px auto;
+        }
+
+        input, select{
+            padding: 4px;
+            /* display: block; */
+            width: 90%;
+            margin: auto;
+            font-family: 'Source Code Pro', monospace;
+            font-size: 15px;
+            color: rgb(108, 212, 178);
+            font-weight: bold;
+            /* background-color: rgba(0, 0, 0, 0.502); */
+        }
+
+        #submitButton{
+            margin-top: 25px;
+            font-family: 'Maven Pro', sans-serif;
+            font-size: 20px;
+            background-color: rgba(0, 0, 0, 0.532);
+            color: aquamarine;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        #submitButton:hover{
+            background-color: rgba(0, 0, 0, 0.89);
+        }
+
+        .loginCont{
+            text-align: center;
+        }
+
+        .loginCont a{
+            font-family: 'Source Code Pro', monospace;
+            color: rgb(4, 164, 111);
+        }
+
+        .loginCont a:hover{
+            font-family: 'Source Code Pro', monospace;
+            color: rgb(4, 164, 111);
+            font-size: 19px;
+        }
+
+
+    </style>
+</head>
+
+<body>
+
+    <!-- <div class="brandName">
+        <a href="index.html">
+            Gudgudi!
+        </a> -->
+
+    <div class="container_box">
+        <div class="signup_box">
+
+            <form action="nevermind.php" class = "signup_form">
+                <label for="nameBox">Name</label>
+                <div>
+                    <input type="text" name="uName" id="nameBox" placeholder="Harry Potter">
+                </div>
+
+                <label for="usernameBox">Username</label>
+                <div>
+                    <input type="text" name="uUser" id="usernameBox" placeholder="seekerAtBurrow">
+                </div>
+
+                <label for="emailBox">Email Address</label>
+                <div>
+                    <input type="email" name="uMail" id="emailBox" placeholder="potterh.gryffindor@students.hogwarts.com">
+                </div>
+
+                <label for="dob">Date of Birth</label>
+                <div>
+                    <input type="date" name="udob" id="dob">
+                </div>
+
+                <label for="location">Location</label>
+                <div>
+                    <select name="uLoc" id="loc" default = "Europefdd">
+                        <option value="Africa"> Africa </option>
+                        <option value="Antartica"> Australia </option>
+                        <option value="Asia"> Asia </option>
+                        <option value="Australia"> Australia </option>
+                        <option value="Europe" selected> Europe </option>
+                        <option value="North America"> United States </option>
+                        <option value="South America"> Australia </option>
+                        
+                </div>
+
+                <div id="submitDiv">
+                    <input type="submit" value = "Sign Up" id = "submitButton">
+                </div>
+
+            </form>
+        </div>
+
+        <div class = "loginCont">
+            <a href="#">
+                (OR LOGIN HERE)
+            </a>
+        </div>
+
+</body>
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gudgudi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Handlee&family=Oswald:wght@300;400&family=Raleway:wght@200&family=Rowdies:wght@300&display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            background: url('bg_img.jpg');
+            background-size: 1300px;
+        }
+
+        .topbar {
+            /* border: 1px solid teal; */
+            /* background-color: rgb(127, 255, 212, 0.63); */
+            background-color: rgb(0 0 0 / 37%);
+        }
+
+        .left {
+            display: inline-block;
+            font-family: 'Rowdies', cursive;
+            font-size: 30px;
+            /* border: 1px solid green; */
+            margin: 5px 10px;
+        }
+
+        .left a {
+            color: black;
+            text-decoration: none;
+        }
+
+        .left a:hover {
+            text-decoration: underline;
+            text-decoration-color: black;
+            text-decoration-thickness: 1px;
+        }
+
+        .right{
+            position: absolute;
+            right: 20px;
+            top: 7px;
+            display: inline-block;
+            /* border: 1px solid tomato; */
+        }
+
+        .btn1{
+            background: none;
+            border: none;
+            padding: 3px;
+            font-family:'Handlee', cursive;
+            color: aquamarine;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .btn1:hover{
+            background-color: rgba(127, 255, 212, 0.507);
+            border-radius: 5px;
+            color: black;
+        }
+
+        .navbar {
+            /* border: 1px solid yellow; */
+            display: inline-block;
+            width: auto;
+            margin-left: 250px;
+            margin-top: 0px;
+            padding-top: 15px;
+            padding-bottom: 1px;
+
+        }
+
+        .navbar li {
+            /* border: 1px solid limegreen; */
+            display: inline-block;
+            margin-bottom: 10px;
+            margin-left: 7px;
+            margin-right: 7px;
+        }
+
+        .navbar li a {
+            font-family: 'Raleway', sans-serif;
+            font-size: 20px;
+            text-decoration: none;
+            color: black;
+            font-weight: 500;
+        }
+
+        .navbar li a:hover {
+            color: aquamarine;
+        }
+
+        .active a {
+            color: aquamarine !important;
+            border-bottom: 1px solid aquamarine !important;
+        }
+
+        .welcome_box{
+            /* border: 1px solid hotpink; */
+            width: 35%;
+            box-sizing: border-box;
+            margin-top: 50px;
+            margin-left: 20px;
+            text-align: center;
+        }
+
+        .box1{
+            /* border: 1px solid gold; */
+            font-size: 30px;
+        }
+
+        .box2{
+            /* border: 1px solid fuchsia; */
+            font-size: 150px;
+            line-height: 1em;
+            padding-top: 0px;
+        }
+
+        .box3{
+            margin-top: 10px;
+            padding: 10px;
+            /* border: 1px solid salmon; */
+            font-size: 30px;
+            font-weight: 300;
+            text-decoration: underline;
+        }
+
+        .box1, .box2, .box3{
+            font-family: 'Oswald', sans-serif;
+        }
+
+        .box4{
+            border: 1.5px solid black;
+            margin-top: 30px;
+            padding: 25px;
+            font-family: 'Fredoka One', cursive;
+            font-size: 27px;
+            background-color: rgba(127, 255, 212, 0.543);
+            border-radius: 10px;
+            text-decoration: none !important;
+            color: black !important;
+        }
+
+        .shop_now{
+            text-decoration: none;
+            color: black;
+        }
+
+        .box4:hover{
+            background-color: rgba(127, 255, 212, 0.75);
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="topbar">
+            <div class="left">
+                <a href="#">
+                    Gudgudi!
+                </a>
+            </div>
+
+            <div class="navbar">
+                <ul>
+                    <li class="active">
+                        <a href="index.html">
+                            HOME</a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            WOMEN'S</a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            MEN'S</a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            CHILDREN'S</a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            ACCESSORIES</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="right">
+                <a href="login.html">
+                <button class = "btn1">
+                    <u>Sign-Up</u> &rarr;
+                </button>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <div class="welcome_box">
+        <div class="box1">
+            WELCOME
+        </div>
+        <div class="box2">
+            2023!
+        </div>
+        <div class="box3">
+            DISCOUNTS ARE HERE!
+        </div>
+        <a href="#" class="shop_now">
+        <div class="box4">
+            START SHOPPING &rarr;
+        </div>
+        </a>
+
+    </div>
+
+
+</body>
+
+</html>
